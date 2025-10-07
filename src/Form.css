@@ -1,0 +1,67 @@
+.railway-form-container {
+  width: 450px;
+  margin: 50px auto;
+  background-color: #f8f9fb;
+  border-radius: 14px;
+  padding: 25px 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1b3c73;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #1b3c73;
+  outline: none;
+  box-shadow: 0 0 6px rgba(27, 60, 115, 0.3);
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1b3c73;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #102a4a;
+  transform: scale(1.03);
+}
